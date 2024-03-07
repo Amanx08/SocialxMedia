@@ -19,6 +19,10 @@ body {
 .ig-home-extra {
   position: relative;
 }
+.sign-nav{
+  font-weight: 400!important;
+
+}
 
 .h-img2 {
   position: absolute;
@@ -42,7 +46,7 @@ body {
   border-radius: 8px;
 }
 .custom-nav-font {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: black;
   font-weight: 500;
 
@@ -51,19 +55,24 @@ body {
 /* .custom-nav-font:hover{
   color:#bb2124;
 } */
-.custom-bt-nav {
+/* .custom-bt-nav {
   font-weight: 500;
   padding: 18px 40px;
-  font-size: 19px;
+  font-size: 14px;
+} */
+.maX-width{
+ max-width: 1440px;
+ margin: 0 auto;
+
 }
 
-.home-font {
-  /* font-size: 5.7rem; */
-  font-weight: bolder;
-  max-width: 550px;
-  line-height: 80px;
-}
+.home-text {
+  font-size: 79px;
+  max-width: 80%;
+  line-height: 79px;
+  font-weight: 700;
 
+}
 .img {
   height: 90%;
 }
@@ -71,6 +80,7 @@ body {
 .about-img {
   background-image: url(./background.jpg);
   z-index: 0;
+  background-size:contain;
 
 }
 
@@ -84,14 +94,15 @@ body {
 }
 
 .home-para-custom {
-  font: 400;
-  font-size: 1.3rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   color: black;
+  max-width: 580px;
 }
 
 .na-hv {
   color: black;
-  font-size: 20px;
+  font-size: 1.1rem;
 
 }
 
@@ -100,8 +111,10 @@ body {
 }
 
 .custom-bt-home {
-  font-size: 1.2rem;
+  font-size: .9rem;
   border-radius: 8px;
+  font-weight: 500;
+  border: 2px solid #bb2124;
 }
 
 /* .na-custom{
@@ -114,10 +127,13 @@ margin-right: 70px;
 
 .home {
   background-image: url("./backhome1.png"), url("./background.jpg");
-  background-position-y: -12rem;
   /* width:1500px; */
   height: fit-content;
-  padding-top: 50px;
+  /* background-size: contain!important; */
+  background-repeat: repeat;
+  background-color:#f9f9f9;
+  height: 39rem;
+  background-size: contain;
 }
 
 .about-para {
@@ -125,12 +141,13 @@ margin-right: 70px;
   font-weight: 400;
   /* letter-spacing: 1px; */
   line-height: 32px;
-  font-size: 19px;
-  width: 80%;
+  font-size: 1.1rem;
+  width: 82%;
   color: rgb(99, 99, 99)
 }
 .time-cus-rem{
   padding-top:5rem;
+  font-weight: 600;
 }
 .about-heading {
   font-weight: 600;
@@ -138,13 +155,16 @@ margin-right: 70px;
 .bc-img{
   background-image:url(./background.jpg);
   height: 27rem;
+  width: 100%;
+  background-size: contain;
+  background-color:#f9f9f9!important;
 }
 .bc-cc{
-  height: 50rem;
+  height: 40rem;
 }
 .t-man1 {
   border-radius: 13px;
-  width: 28rem;
+  width: 26.5rem;
   height: 25rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   position: relative;
@@ -164,7 +184,7 @@ margin-right: 70px;
 }
 
 .time-para {
-  font-size: 19px;
+  font-size: 1.1rem;
 }
 
 
@@ -174,24 +194,24 @@ margin-right: 70px;
 
 .media-para {
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: grey;
 }
 
-/* .man-social {
-  background-color: #edeff1;
-  padding: 60px 0px;
-  width:fit-content;
-} */
+ .man-social {
+  margin: 6rem 0px;
+  background-color: #F6F7FF;
+} 
 
-/* .tools-img {
-  width: 90%;
-  height: 40rem;
-  overflow-x: hidden;
-} */
+.tools-img {
+  height: 35rem;
+  object-fit: cover;
+}
 
 .tools {
   position: relative;
+  width: 88rem;
+  margin-bottom: 130px;
 }
 
 /* .tools {
@@ -219,21 +239,24 @@ margin-right: 70px;
   line-height: 1.8;
 }
 
-/* 
-.one-section {
-  padding-top: 50px;
-  margin-top: 100px;
-  margin-left: 200px;
 
-} */
+.one-section {
+  /* padding-top: 50px;
+  margin-top: 100px;
+  margin-left: 200px; */
+  background-color: #F6F7FF;
+
+} 
 
 .cm-two {
   margin-top: 85px;
 }
-
+.black{
+  background-color:black;
+}
 .para-soft {
   line-height: 2;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .get-st {
@@ -241,11 +264,13 @@ margin-right: 70px;
   align-items: center;
   background-color: #496eec94;
   height: 20rem;
+  margin-top: 120px;
 }
 
 .ser-white {
   background-color: white;
   /* width: 600px; */
+  border-radius: 15px;
 }
 
 .service-sec {
@@ -278,9 +303,12 @@ margin-right: 70px;
   color: grey;
   /* overflow: hidden; */
 }
-
+.width-col{
+  background-color: #efefef;
+}
 .shadows {
-  border-radius: 9px;
+  border-radius: 12px;
+
 }
 
 .shadows:hover {
@@ -290,24 +318,25 @@ margin-right: 70px;
 }
 
 .more-top {
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .more-main {
-  width: 27rem;
-  height: 22rem;
+  width: 26rem;
+  height: 20rem;
+  border-radius: 12px;
 
 }
 
 .more-para {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   max-width: 23rem;
   line-height: 1.5;
 }
 
 .test-div {
-  width: 28rem;
-  height: 26rem;
+  width: 26rem;
+  height: 24rem;
   text-align: center;
   background-color: white;
   border-radius: 10px;
@@ -315,12 +344,17 @@ margin-right: 70px;
   font-family: Jost, sans-serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: grey;
+  
 }
-
+.test-inner{
+  width: 85%;
+  margin: 0 auto;
+}
 .test-main {
-  padding-top: 120px!important;
+  padding: 120px 0px!important;
+  margin-top: 80px!important;
 }
 
 /* .test-row {
@@ -648,13 +682,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 } */
-  .home-text {
-    font-size: 2.2rem;
-    max-width: fit-content;
-    line-height: 1;
-    margin: 0 auto;
-
-  }
+  
 
   .footer-quick-links {
     margin-left: -38px;
@@ -670,6 +698,7 @@ justify-content: space-around;
 
   .nav-logo {
     height: .5rem;
+
   }
 
   /* .home-text {
@@ -683,6 +712,7 @@ justify-content: space-around;
     text-align: center;
     max-width: fit-content;
     margin: 0 auto;
+    font-weight: 500s;
   }
 
   .home-a2 {
@@ -691,7 +721,7 @@ justify-content: space-around;
 
   .about-res-custom {
     padding-left: 1rem;
-    height: 80%;
+    /* height: 100%; */
   }
 
   .about-para {
@@ -737,13 +767,16 @@ justify-content: space-around;
 
 .media-cus {
   text-align: center;
+  /* margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
 }
 
 .media-cus1 {
-  width: 100%;
+  /* width: 100%; */
   background-color: #f7f7fb;
-  padding: 0;
-  margin: 0;
 }
 
 .platforms-cus {
@@ -752,7 +785,7 @@ justify-content: space-around;
 
 .our-social {
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .ones-a1 {
