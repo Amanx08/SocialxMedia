@@ -98,12 +98,14 @@ body {
   font-size: 1.2rem;
   color: black;
   max-width: 580px;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .na-hv {
   color: black;
-  font-size: 1.1rem;
-
+  font-size: 1.2rem;
+  font-family: Jost, sans-serif;
 }
 
 .na-hv:hover {
@@ -114,7 +116,7 @@ body {
   font-size: .9rem;
   border-radius: 8px;
   font-weight: 500;
-  border: 2px solid #bb2124;
+  border: 2px solid #dc3545;
 }
 
 /* .na-custom{
@@ -130,7 +132,7 @@ margin-right: 70px;
   /* width:1500px; */
   height: fit-content;
   /* background-size: contain!important; */
-  background-repeat: repeat;
+  /* background-repeat:  no-repeat; */
   background-color:#f9f9f9;
   height: 39rem;
   background-size: contain;
@@ -143,7 +145,9 @@ margin-right: 70px;
   line-height: 32px;
   font-size: 1.1rem;
   width: 82%;
-  color: rgb(99, 99, 99)
+  color: rgb(99, 99, 99);
+  font-family: "Poppins", sans-serif;
+
 }
 .time-cus-rem{
   padding-top:5rem;
@@ -175,7 +179,7 @@ margin-right: 70px;
 }
 
 .service-button {
-  padding: 10px 22px 15px 22px;
+  padding: 6px 16px 12px 21px;
   background-color: #166AFE2B;
   color: #bb2124;
   margin-right: 15px;
@@ -185,6 +189,8 @@ margin-right: 70px;
 
 .time-para {
   font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+
 }
 
 
@@ -196,6 +202,10 @@ margin-right: 70px;
   line-height: 1.5;
   font-size: 1.1rem;
   color: grey;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+
+
 }
 
  .man-social {
@@ -252,11 +262,13 @@ margin-right: 70px;
   margin-top: 85px;
 }
 .black{
-  background-color:black;
+  background-color:#424142;
 }
 .para-soft {
   line-height: 2;
   font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .get-st {
@@ -302,6 +314,8 @@ margin-right: 70px;
   line-height: 1.5;
   color: grey;
   /* overflow: hidden; */
+  font-family: "Poppins", sans-serif;
+
 }
 .width-col{
   background-color: #efefef;
@@ -332,6 +346,8 @@ margin-right: 70px;
   font-size: 1.1rem;
   max-width: 23rem;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .test-div {
@@ -340,14 +356,18 @@ margin-right: 70px;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(5, 4, 4, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   font-family: Jost, sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 1.1rem;
   color: grey;
+  border:solid 1px #e5e3e5;
   
 }
+/* .test-div:hover{
+  box-shadow: 0 10px 20px rgba(5, 4, 4, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+} */
 .test-inner{
   width: 85%;
   margin: 0 auto;
@@ -726,6 +746,8 @@ justify-content: space-around;
 
   .about-para {
     margin: 0 auto;
+  text-align: justify;
+
   }
 
   .about-a1 {
@@ -827,6 +849,8 @@ justify-content: space-around;
 
 .para-soft {
   font-size: 1.1rem;
+  text-align: justify;
+
 }
 
 .more-top {
